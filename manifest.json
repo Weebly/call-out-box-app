@@ -1,0 +1,38 @@
+{
+  "manifest": "1",
+  "version": "1.0.0",
+  "elements": [{
+	"name": "Call-Out Box",
+	"path": "files",
+	"version": "1.0.0",
+	"settings": {
+	  "config": {
+		"autopop": false
+	  },
+	  "properties": [{
+		"name": "display",
+		"label": "Display",
+		"type": "group",
+		"properties": [
+		{
+			"name": "background",
+			"label": "Background Color",
+			"type": "color",
+			"default": "#f8f8f8"
+		},
+		{
+			"name": "border_color",
+			"label": "Border Color",
+			"type": "color",
+			"default": "#d4d5d6"
+		},
+		{
+			"name": "alignment",
+			"label": "Alignment",
+			"type": "align",
+			"default": "center"
+		}]
+	  }]
+	}
+  }]
+}

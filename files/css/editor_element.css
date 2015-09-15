@@ -1,0 +1,34 @@
+/* Wrapper */
+.element-callout-box {
+	border: 1px solid @border_color;
+	background-color: @background;
+	padding: 40px;
+	text-align: @alignment;
+}
+
+/* Header */
+.element-header {
+	padding: 0 !important;
+
+	.paragraph {
+		text-transform: uppercase;
+		text-align: @alignment !important;
+		padding: 0 !important;
+		font-size: 30px;
+	}
+}
+
+/* Main content */
+.element-content {
+	padding: 20px 0px 20px 0px;
+	
+	.paragraph {
+		font-size: 18px;
+		text-align: @alignment !important;
+	}
+}
+
+/* Button alignment in editor */
+.action-button .element {
+	text-align: @alignment !important;
+}
