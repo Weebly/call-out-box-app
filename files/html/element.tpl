@@ -1,4 +1,4 @@
-<div class="element-callout-box">
+<div class="element-callout-box {{style}}">
     <div class="element-header">
         {field_callout_box_header:text default="Click to add Headline"}
     </div>

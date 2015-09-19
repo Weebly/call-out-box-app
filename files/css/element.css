@@ -1,9 +1,9 @@
 /* Wrapper */
 .element-callout-box {
-	border: 1px solid @border_color;
+	border: @border @border_color;
 	background-color: @background;
 	padding: 40px;
-	text-align: @alignment;
+	text-align: center;
 }
 
 /* Header */
@@ -12,7 +12,7 @@
 
 	.paragraph {
 		text-transform: uppercase;
-		text-align: @alignment !important;
+		text-align: center;
 		padding: 0 !important;
 		font-size: 30px;
 	}
@@ -24,11 +24,32 @@
 	
 	.paragraph {
 		font-size: 18px;
-		text-align: @alignment !important;
+		text-align: center;
 	}
 }
 
-/* Button alignment on published site */
-.action-button div:first-child {
-	text-align: @alignment !important;
+/* Button alignment in editor */
+.action-button .element {
+	text-align: center;
+}
+
+
+/*= 3D
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Base for shadow mixins */
+.s3d-shadow {
+	-webkit-box-shadow: @s3d-shadow-horizontal @s3d-shadow-vertical @s3d-shadow-blur @s3d-shadow-spread @s3d-shadow-color;
+	-moz-box-shadow: @s3d-shadow-horizontal @s3d-shadow-vertical @s3d-shadow-blur @s3d-shadow-spread @s3d-shadow-color;
+	box-shadow: @s3d-shadow-horizontal @s3d-shadow-vertical @s3d-shadow-blur @s3d-shadow-spread @s3d-shadow-color;
+}
+
+.s3d {
+	@s3d-shadow-blur: 30px;
+	@s3d-shadow-spread: 4px;
+	@s3d-shadow-vertical: 0px;
+	@s3d-shadow-horizontal: 0px;
+	@s3d-shadow-color: @border_color;
+
+	.s3d-shadow;
+	border: none;
 }
