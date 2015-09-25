@@ -1,71 +1,91 @@
 {
   "manifest": "1",
   "version": "1.0.0",
-  "elements": [{
-	"name": "Call-Out Box",
-	"path": "files",
-	"version": "1.0.0",
-	"settings": {
-	  "config": {
-		"autopop": false
-	  },
-	  "properties": [
-		  {
-			"name": "color-setting",
-			"label": "Color",
-			"type": "group",
-			"properties": [
-				{
-					"name": "background",
-					"label": "Background Color",
-					"type": "color",
-					"default": "#f8f8f8"
-				},
-				{
-					"name": "border_color",
-					"label": "Border Color",
-					"type": "color",
-					"default": "#d4d5d6"
-				}
-			]
-		  },
-		  {
-			"name": "style-setting",
-			"label": "Style",
-			"type": "group",
-			"properties": [
-				{
-					"name": "style",
-					"label": "Style",
-					"type": "select",
-					"default": "standard",
-					"values": [
-						{"name":"Standard", "value": "standard"},
-						{"name":"3D", "value": "s3d"}
-					]
-				}
-			]
-		  },
-		  {
-			"name": "border-setting",
-			"label": "Border",
-			"type": "group",
-			"properties": [
-				{
-					"name": "border",
-					"label": "Border",
-					"type": "select",
-					"default": "1px solid",
-					"values": [
-						{"name":"None", "value": "none"},
-						{"name":"Solid", "value": "1px solid"},
-						{"name":"Dotted", "value": "1px dotted"},
-						{"name":"Thick", "value": "4px solid"}
-					]
-				}
-			]
-		  }
-	  ]
-	}
-  }]
+  "elements": [
+    {
+      "name": "Call-Out Box",
+      "path": "files",
+      "version": "1.0.0",
+      "settings": {
+        "config": {
+          "autopop": false
+        },
+        "properties": [
+          {
+            "name": "color-setting",
+            "label": "Color",
+            "type": "group",
+            "properties": [
+              {
+                "name": "background",
+                "label": "Background Color",
+                "type": "color",
+                "default": "#f8f8f8"
+              },
+              {
+                "name": "border_color",
+                "label": "Border Color",
+                "type": "color",
+                "default": "#d4d5d6"
+              }
+            ]
+          },
+          {
+            "name": "style-setting",
+            "label": "Style",
+            "type": "group",
+            "properties": [
+              {
+                "name": "style",
+                "label": "Style",
+                "type": "select",
+                "default": "standard",
+                "values": [
+                  {
+                    "name": "Standard",
+                    "value": "standard"
+                  },
+                  {
+                    "name": "3D",
+                    "value": "s3d"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "border-setting",
+            "label": "Border",
+            "type": "group",
+            "properties": [
+              {
+                "name": "border",
+                "label": "Border",
+                "type": "select",
+                "default": "1px solid",
+                "values": [
+                  {
+                    "name": "None",
+                    "value": "none"
+                  },
+                  {
+                    "name": "Solid",
+                    "value": "1px solid"
+                  },
+                  {
+                    "name": "Dotted",
+                    "value": "1px dotted"
+                  },
+                  {
+                    "name": "Thick",
+                    "value": "4px solid"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
