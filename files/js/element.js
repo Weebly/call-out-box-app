@@ -4,14 +4,14 @@
  */
 (function() {
 
-	var CallOutBox = PlatformElement.extend({
-		initialize: function() {
-			// Remove inline styles
-			this.$el.find('.element').each(function(index) {
-				$(this).attr('style', '');
-			});
-		}
-	});
+    var CallOutBox = PlatformElement.extend({
+        initialize: function() {
+            // Remove inline styles
+            this.$el.find('.element').each(function(index) {
+                $(this).attr('style', '');
+            });
+        }
+    });
 
-	return CallOutBox;
+    return CallOutBox;
 })();
