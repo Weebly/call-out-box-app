@@ -3,34 +3,6 @@
     border: @border @border_color;
     background-color: @background;
     padding: 40px;
-    text-align: center;
-}
-
-/* Header */
-.element-header {
-    padding: 0 !important;
-
-    .paragraph {
-        text-transform: uppercase;
-        text-align: center;
-        padding: 0 !important;
-        font-size: 30px;
-    }
-}
-
-/* Main content */
-.element-content {
-    padding: 20px 0px 20px 0px;
-    
-    .paragraph {
-        font-size: 18px;
-        text-align: center;
-    }
-}
-
-/* Button alignment in editor */
-.action-button .element {
-    text-align: center;
 }
 
 
