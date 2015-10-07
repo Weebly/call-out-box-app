@@ -1,25 +1,25 @@
-/* Wrapper */
-.element-callout-box {
+/**
+ * Put all of your styles for your element in here!
+ * @required
+ */
+.callout-box {
+    &--standard {
+        .callout-base;
+    }
+
+    &--material {
+        .callout-base;
+        .material;
+    }
+}
+
+.callout-base {
     border: @border @border_color;
-    background-color: @background;
+    background: @background;
     padding: 40px;
+    margin: 20px 0;
 }
 
-
-/*= 3D
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* Base for shadow mixins */
-.s3d-shadow {
-    box-shadow: @s3d-shadow-horizontal @s3d-shadow-vertical @s3d-shadow-blur @s3d-shadow-spread @s3d-shadow-color;
-}
-
-.s3d {
-    @s3d-shadow-blur: 30px;
-    @s3d-shadow-spread: 4px;
-    @s3d-shadow-vertical: 0px;
-    @s3d-shadow-horizontal: 0px;
-    @s3d-shadow-color: @border_color;
-
-    .s3d-shadow;
-    border: none;
+.material {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
