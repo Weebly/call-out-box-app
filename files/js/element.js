@@ -3,14 +3,8 @@
  * @type {PlatformElement}
  */
 (function() {
-
     var CallOutBox = PlatformElement.extend({
-        initialize: function() {
-            // Remove inline styles
-            this.$el.find('.element').each(function(index) {
-                $(this).attr('style', '');
-            });
-        }
+        initialize: function() { }
     });
 
     return CallOutBox;
