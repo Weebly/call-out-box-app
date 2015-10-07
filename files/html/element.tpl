@@ -1,4 +1,4 @@
-<div class="element-callout-box {{style}}">
+<div class="callout-box--{{style}}">
     <div class="element-content">
         {field_callout_box_content:content}
     </div>
