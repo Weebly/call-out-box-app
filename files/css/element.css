@@ -2,6 +2,9 @@
  * Put all of your styles for your element in here!
  * @required
  */
+@user-vertical-padding: @vertical-padding * 1px;
+@user-horizontal-padding: @horizontal-padding * 1px;
+
 .callout-box {
     &--standard {
         .callout-base;
@@ -16,7 +19,7 @@
 .callout-base {
     border: @border @border_color;
     background: @background;
-    padding: 40px;
+    padding: @user-vertical-padding @user-horizontal-padding;
     margin: 20px 0;
 }
 
