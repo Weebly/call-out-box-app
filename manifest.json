@@ -1,6 +1,6 @@
 {
   "manifest": "1",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "elements": [
     {
       "name": "Call-Out Box",
@@ -81,6 +81,29 @@
                     "value": "4px solid"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "spacing-setting",
+            "label": "Spacing",
+            "type": "group",
+            "properties": [
+              {
+                "name": "vertical-padding",
+                "label": "Vertical Padding",
+                "type": "int",
+                "default": 20,
+                "step": 1,
+                "min": 0
+              },
+              {
+                "name": "horizontal-padding",
+                "label": "Horizontal Padding",
+                "type": "int",
+                "default": 20,
+                "step": 1,
+                "min": 0
               }
             ]
           }
