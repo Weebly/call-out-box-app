@@ -5,7 +5,7 @@
     {
       "name": "Call-Out Box",
       "path": "files",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "settings": {
         "config": {
           "autopop": false
