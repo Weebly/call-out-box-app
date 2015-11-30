@@ -20,7 +20,6 @@
     border: @border @border_color;
     background: @background;
     padding: @user-vertical-padding @user-horizontal-padding;
-    margin: 20px 0;
 }
 
 .material {
