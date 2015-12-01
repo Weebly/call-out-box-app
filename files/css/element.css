@@ -5,6 +5,10 @@
 @user-vertical-padding: @vertical-padding * 1px;
 @user-horizontal-padding: @horizontal-padding * 1px;
 
+.callout-box-wrapper {
+    padding: 20px 0px;
+}
+
 .callout-box {
     &--standard {
         .callout-base;
