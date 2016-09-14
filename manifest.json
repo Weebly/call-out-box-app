@@ -1,11 +1,11 @@
 {
   "manifest": "1",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "elements": [
     {
       "name": "Call-Out Box",
       "path": "files",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "settings": {
         "config": {
           "autopop": false
@@ -108,6 +108,16 @@
             ]
           }
         ]
+      },
+      "tutorial": {
+        "introduction": "The Call Out Box provides an easy way to draw attention to important content and information on your site.",
+        "type": "steps",
+        "content": [
+          "Decide on a purpose for the Call Out Box. There are a lot of ways to use this app, so be creative!",
+          "Drag elements into the app and position them. A variety of elements can be added and arranged in the same way as on any page - you can even add a second Call Out Box!",
+          "Click on the Call Out Box element to bring up the Settings. You can choose a style and colors for the app and modify the border and padding. If you want to change the look of any text you’ve added, you can use the text edit tool bar to adjust the color and style."
+        ],
+        "autopop": true
       }
     }
   ]
